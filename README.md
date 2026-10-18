@@ -115,7 +115,11 @@ npm install
 
 ### 5. Start the backend
 
-From the `backend` directory, run the backend start command defined in `backend/package.json`.
+From the `backend` directory, run the backend start command:
+
+```bash
+npm run dev
+```
 
 ### 6. Start the frontend
 
@@ -163,20 +167,6 @@ OrderSathi is an early-stage prototype, and there is more work to do.
 OrderSathi uses an open-weight language model through Ollama, making it possible to experiment with AI-powered order extraction locally without requiring a paid hosted language-model API for inference.
 
 This approach makes the project easier to experiment with, gives developers more control over their model setup, and offers a starting point for adapting AI tools to practical small-business workflows.
-
-## 🎥 Demo
-
-The project is currently demonstrated locally rather than through a deployed live application.
-
-**Video demo:** [Add your demo video link here]
-
-## 🤝 Contributing
-
-Contributions, bug reports, and suggestions are welcome. If you would like to improve OrderSathi, feel free to fork the repository, make changes on a separate branch, and submit a pull request.
-
-## 📄 License
-
-No license has been specified yet. A license should be added before others redistribute or reuse the project.
 
 ---
 
